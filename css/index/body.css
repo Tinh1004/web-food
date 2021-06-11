@@ -246,7 +246,7 @@
 .page-body .quangcao{
     width: 95%;
     height: 150px;
-    background-color: white;
+/*     background-color: white; */
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -254,7 +254,7 @@
 .quangcao .quangcao-inner{
     height: 100%;
     width: 49.5%;
-    /* background-color: green; */
+    background-color: white;
     float: right;
 }
 .quangcao .quangcao-left{
