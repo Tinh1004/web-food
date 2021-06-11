@@ -1,0 +1,342 @@
+
+.page .page-body{
+    background-image: linear-gradient(orange, rgb(241, 95, 10));
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+}
+.page-body .gg{
+    padding: 0;
+    width: 70%;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+.page-body .gg .back{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    color: rgba(128, 128, 128, 0.7);
+}
+.page-body .gg .back:hover{
+    color: rgba(128, 128, 128);
+}
+.page-body .gg p{
+    padding-top: 0.8em;
+    font-size: 22px;
+    color: orange;
+    position: absolute;
+    left: 34%;
+}
+.page-body .gg p span{
+    font-weight: bold;
+}
+.page-body .gg .nut{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.page-body .gg .nut button{
+    border: none;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    color: white;
+}
+.page-body .gg .nut button#nut-left{
+    background-color: rgba(53, 53, 248, 0.9);
+}
+.page-body .gg .nut button#nut-left:hover{
+    background-color: rgba(53, 53, 248);
+}
+.page-body .gg .nut button#nut-right{
+    background-color: rgba(128, 128, 128, 0.7);
+}
+.page-body .gg .nut button#nut-right:hover{
+    background-color: rgba(128, 128, 128);
+}
+.page-body .page-body-more{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    position: relative;
+}
+.page-body-more .innerImage{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    /* background-color: white; */
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.page-body-more .innerImage .image-left{
+    width: 48%;
+    float: left;
+    background-color: red;
+    height: 100%;
+}
+.page-body-more .innerImage .image img{
+    width: 100%;
+    height: 100%;
+}
+.page-body-more .innerImage .image-right{
+    width: 48%;
+    float: right;
+    background-color: red;
+    height: 100%;
+}
+.page-body-more .btn-click{
+    border: none;
+    font-size: 54px;
+    background-color: transparent;
+    color: gray;
+    position: absolute;
+}
+.page-body-more .btn-click:hover{
+    font-size: 72px;
+    color: rgb(235, 235, 39);
+    top: 25%;
+    transition: 0.4s;
+}
+.page-body-more .display-left{
+    top: 30%;
+    left: 2%;
+}
+.page-body-more .display-right{
+    top: 30%;
+    right: 2%;
+}
+
+.page-body .page-body-today{
+    width: 95%;
+    height: 500px;
+    /* background-color: white; */
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 2px solid rgb(128, 128, 128);
+}
+.page-body .page-body-today .body-today-title{
+    width: 100%;
+    height: 12%;
+    /* background-color: white; */
+}
+.page-body .page-body-today .body-today-title .today-title-img{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+    float: left;
+}
+.body-today-title .today-title-img img{
+    height: 60%;
+    width: 20%;
+    position: absolute;
+    top: 14%;
+    left: 5%;
+}
+.body-today-title .today-title-img span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 28%;
+    top: 1%;
+}
+
+.body-today-title .body-title-menu{
+    width: 45%;
+    height: 100%;
+    /* background-color: white; */
+    float: left;
+}
+.body-title-menu ul.menu-today{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+.body-title-menu ul.menu-today li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.body-title-menu ul.menu-today li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    color: gray;
+}
+.body-title-menu ul.menu-today li a:hover{
+    color: rgb(145, 3, 3);
+}
+
+.page-body-today .body-today-card{
+    width: 90%;
+    height: 84%;
+    margin: 0 auto;
+    /* background-color: white;  */
+}
+.body-today-card .today-card-subcard{
+    height: 46%;
+    width: 20%;
+    float: left;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+    margin-bottom: 2%;
+    margin-left: 4%;
+
+}
+.today-card-subcard .subcard-image{
+    width: 100%;
+    height: 70%;
+    background-color: forestgreen;
+    overflow: hidden;
+}
+
+.today-card-subcard .subcard-image img{
+    width: 100%;
+    height: 100%;
+}
+.today-card-subcard .subcard-image:hover img{
+    transition: 0.5s;
+    width: 105%;
+    height: 105%;
+    overflow: hidden;
+}
+.today-card-subcard .subcard-title{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+.today-card-subcard .subcard-title h6{
+    padding: 0.2em 0 0 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.today-card-subcard .subcard-title h6 a{
+    color: black;
+    text-decoration: none;
+}
+.today-card-subcard .subcard-title h6 a:hover{
+    color: rgb(117, 64, 64);
+}
+
+.today-card-subcard .subcard-title p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-left: 0.2em;
+    color: gray;
+}
+.page-body-today p.end{
+    position: absolute;
+    left: 48%;
+}
+.page-body-today p.end a{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.page-body .quangcao{
+    width: 95%;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.quangcao .quangcao-inner{
+    height: 100%;
+    width: 49.5%;
+    /* background-color: green; */
+    float: right;
+}
+.quangcao .quangcao-left{
+    margin-left: 1%;
+}
+.quangcao .quangcao-inner .quangcao-inner-img{
+    height: 100%;
+    width: 30%;
+    float: left;
+    /* background-color: pink; */
+}
+.quangcao .quangcao-inner .quangcao-inner-img .inner-img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: cornsilk;
+}
+.quangcao .quangcao-inner .quangcao-inner-img .inner-img img{
+    width: 100%;
+    height: 100%;
+}
+.quangcao .quangcao-inner .quangcao-inner-content{
+    width: 55%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    /* background-color: blue; */
+}
+.quangcao-inner-content h6{
+    font-size: 12px;
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.quangcao-inner-content p{
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 120px;
+    /* background-color: yellowgreen; */
+    background-color: white;
+
+}
+footer .footer{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.footer .footer-inner{
+    float: left;
+    position: relative;
+}
+.footer .footer-right{
+    width: 70%;
+}
+.footer .footer-left{
+    width: 20%;
+
+}
+.footer-left p{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+.footer-left .email{
+    margin-top: 12%;
+}
+.footer-right p{
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+.footer-right .text{
+    margin-top: 3%;
+}

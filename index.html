@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index/project2.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/solid.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/brands.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/fontawesome.css">
+</head>
+<body>
+    <header>
+        <div class="page-top">
+            <div class="top justify-content-between navbar navbar-white ">
+                <div class="left">
+                    <img src="assets/images/logo.png" title="logo">
+                </div>
+                <div class="mid">
+                    <form class="form-inline form-search row">
+                        <input id="search" class="form-control mr-sm-2" type="search" placeholder="tìm địa điểm, đồ ăn..." aria-label="Search">
+                        <button id="search-click" class="btn btn-outline-success my-sm-0" type="submit">Search</button>
+                        <select class="form-control ml-2">
+                            <option value="DaNang">Đà Nẵng</option>
+                            <option value="HoChiMinh">Hồ Chí Minh</option>
+                            <option value="HaNoi">Hà Nội</option>
+                        </select>
+                      </form>
+                </div>
+                <div class="right">
+                    <ul class="right-ul">
+                        <a href="#"><li></li></a>
+                        <a href="#"><li></li></a>
+                        <a href="#"><li></li></a>
+                    </ul>
+                </div>    
+            </div><!-- End top -->
+
+            <!-- menu bottom -->
+            <div class="bottom">   
+                <div class="bottom-ul">
+                    <ul class="bottom-ul-menu">
+                        <li><a href="" id="home" class="bot">Trang chủ</a></li>
+                        <li><a href="" id="cart" class="bot">Đặt hàng</a></li>
+                        <li><a href="" id="chat" class="bot">Chat</a></li>
+                        <li><a href="" id="sale" class="bot">Giảm giá</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End menu bottom -->
+        </div><!-- End header -->
+
+    </header>
+    <div class="page" style="background-color: rgba(128, 128, 128, 0.281);">
+
+        <div class="page-body">
+            <div style="height:8px;width:100%;"></div>
+            <!-- Quảng cáo gg -->
+            <div class="gg">
+                <div class="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+                <p>Quảng cáo của <span>Google</span></p>
+                <div class="nut">
+                    <button type="" id="nut-left">ngưng quảng cáo này</button>
+                    <button type="" id="nut-right">Tại sao có quảng cáo này?</button>
+                </div>
+            </div><!-- End quảng cáo-->
+
+            <div class="page-body-more">
+                <div class="innerImage">
+                    <div class="image-left image">
+                        <img src="assets/images/hitea.jpg" alt="">
+                    </div>
+                    <div class="image-right image">
+                        <img src="assets/images/hitea.jpg" alt="">
+                    </div>
+                </div>
+                <button class="display-left btn-click" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="display-right btn-click" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <!-- end -->
+
+            <!-- today -->
+            <div class="page-body-today">
+                <div class="body-today-title">
+                    <div class="today-title-img">
+                        <img src="assets/icons/logo.png" alt="">
+                        <span>Hôm nay</span>
+                    </div>
+                    <!-- Menu -->
+                    <div class="body-title-menu">
+                        <ul class="menu-today">
+                            <li><a href="#">Tất cả</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Drink</a></li>
+                            <li><a href="#">Giảm giá</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End tilte -->
+                <div class="body-today-card" id="body-today-card"></div>   
+                <p class="end"><a href=""> Xem thêm ></a></p>
+            </div>
+            <script src="js/index/card.js"></script>
+
+            <!-- end today -->
+            <div class="page-body-today">
+                <div class="body-today-title">
+                    <div class="today-title-img">
+                        <img src="assets/icons/logo.png" alt="">
+                        <span>Điểm tâm</span>
+                    </div>
+                    <!-- Menu -->
+                    <div class="body-title-menu">
+                        <ul class="menu-today">
+                            <li><a href="#">Tất cả</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Drink</a></li>
+                            <li><a href="#">Giảm giá</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End tilte -->
+                <div class="body-today-card" id="body-today-card"></div>   
+                <p class="end"><a href=""> Xem thêm ></a></p>
+            </div>
+            <script src="js/index/card.js"></script>
+            <!-- end điểm tâm -->
+
+            <div class="quangcao">
+                <div class="quangcao-left quangcao-inner">
+                    <div class="quangcao-inner-img">
+                        <div class="inner-img">
+                            <img src="assets/images/phone.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="quangcao-inner-content">
+                        <h6>Mobile City đổi máy CŨ lên máy MỚI năm 2020</h6>
+                        <p>Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020</p>
+                    </div>
+                </div>
+                
+                <div class="quangcao-right quangcao-inner">
+                    <div class="quangcao-inner-img">
+                        <div class="inner-img">
+                            <img src="assets/images/phone.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="quangcao-inner-content">
+                        <h6>Mobile City đổi máy CŨ lên máy MỚI năm 2020</h6>
+                        <p>Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020 Mobile City đổi máy CŨ lên máy MỚI năm 2020</p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 1px;"></div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="footer-left footer-inner">
+                    <div class="email">
+                        <p>Liên hệ địa chỉ</p>
+                        <p>ngoctinhxx@gmail.com</p>
+                        <h6>c 2017 All Rights Reserved</h6>
+                    </div>
+                </div>
+                <div class="footer-right footer-inner">
+                    <div class="text">
+                        <p>CÔNG TY TTHH MY FOODS - Địa chỉ: phòng 180, Tầng 1, 358 Đường 2/9; Phường Hòa Cường Nam, Quận Hải Châu, TP. Đà Nẵng <br>Giấy chứng nhận đăng ký kinh doanh số 0326693102 do Sở Kế Hoạch và Đầu tư TP HCM cấp ngày 10/4/2001</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <link rel="stylesheet" href="css/index/body.css">
+    <script src="js/index/project2.js"></script>
+</body>
+</html>
